@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "declaration": true,
+      "outDir": "./dist",
+      "rootDir": "./",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,  
+  },
+  "lib": [
+      "node",
+      "es2015"
+  ],
+  "include": [
+      "./*.ts"
+  ],
+  "exclude": [
+      "../node_modules",
+  ]
+}

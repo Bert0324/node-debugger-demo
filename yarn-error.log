@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/berthuang/.nvm/versions/node/v16.0.0/bin/node /Users/berthuang/.nvm/versions/node/v16.0.0/bin/yarn add -D ts-node
+
+PATH: 
+  /Users/berthuang/.nvm/versions/node/v16.0.0/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/berthuang/.nvm/versions/node/v16.0.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/berthuang/.cargo/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/berthuang/playground/node-debugger/package.json: Unexpected token } in JSON at position 172
+      at JSON.parse (<anonymous>)
+      at /Users/berthuang/.nvm/versions/node/v16.0.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/berthuang/.nvm/versions/node/v16.0.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/berthuang/.nvm/versions/node/v16.0.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "debugger",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+      "legacy": "node --inspect-brk=5858 ./legacy",
+      "vscode": "node ./vscode",
+      ""
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
